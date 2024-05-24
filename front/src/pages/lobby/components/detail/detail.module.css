@@ -1,0 +1,117 @@
+.btn_main {
+  color: #ffffff;
+  background-color: #8888ff;
+}
+
+.title,
+.room_title {
+  text-align: center;
+  font-size: 3.2rem;
+  margin: 0;
+  color: #8888ff;
+}
+
+.c_black {
+  color: #222;
+}
+
+.room_title {
+  width: 95%;
+  text-align: start;
+}
+
+.room_settings {
+  align-items: center;
+  width: 95%;
+  margin: 0 0 0.4rem 0;
+}
+
+.room_ppl,
+.room_password {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0.8rem 0;
+}
+
+.setting_title {
+  font-size: 2.4rem;
+  margin: 0 1rem 0 0;
+}
+
+.setting_title input {
+  margin: 0 0 0 1rem;
+  transform: scale(1.6);
+}
+
+.select {
+  font-size: 2.4rem;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.btn_box {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.input_title {
+  width: 90%;
+  font-size: 2.4rem;
+  padding: 0 1rem;
+  margin: 0.4rem 0 2rem 0;
+  border-radius: 8px;
+}
+
+.input_pass {
+  width: 40%;
+  text-align: center;
+  font-size: 2.4rem;
+  border-radius: 8px;
+  padding: 0 1rem;
+}
+
+.pass_input {
+  margin: 1rem 0;
+  border-radius: 8px;
+  font-size: 3.2rem;
+  width: 25rem;
+  text-align: center;
+  pointer-events: none;
+  position: relative;
+  padding-left: 2rem;
+  letter-spacing: 2rem;
+}
+
+.btn_pass_box {
+  display: flex;
+}
+
+.password_btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  width: 10rem;
+  height: 5rem;
+  padding: 0 1rem;
+  font-size: 3.2rem;
+  border: 1px solid lightgray;
+  margin: 0.4rem;
+}
+
+/* SignOut */
+.sign_out_btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  width: 10rem;
+  height: 5rem;
+  padding: 0 1rem;
+  font-size: 3.2rem;
+  border: 1px solid lightgray;
+  margin: 0 1rem;
+}

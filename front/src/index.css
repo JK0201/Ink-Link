@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: 'Dongle', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://cnwtybrajiqf.objectstorage.ap-seoul-1.oci.customer-oci.com/n/cnwtybrajiqf/b/Inklink/o/bg.png');
+  background-repeat: repeat;
+  /* overflow-x: hidden; */
+}
+body *{
+  font-family: 'Dongle', sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+div {
+  box-sizing: border-box;
+}
