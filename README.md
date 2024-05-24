@@ -26,48 +26,22 @@
 
 ## 나의 역할
   <details>
-    <summary><b>프로젝트 구조 및 디자인</b></summary>
+    <summary><b>로비 페이지 UI/UX 디자인 및 설계</b></summary>
     <ul>
-      <li>코드 일관성, 협업 효율성, 유지보수 강화를 위한 프론트엔드 컨벤션 작성 및 프로젝트 폴더 구조 정리</li>
-      <li>사용자 경험 증진을 위해 Figma를 사용하여 페이지 UI/UX 디자인</li>
+      <li>프로필 이미지 변경 및 유저 정보 수정 기능 구현</li>
+      <li>유저가 공개 또는 비공개 방을 생성하고, 방에 참가할 수 있는 기능 구현</li>
     </ul>
   </details>
   
   <details>
-    <summary><b>사용자 인증 및 프로세스 개선</b></summary>
+    <summary><b>Socket.io</b></summary>
     <ul>
-      <li>로그인, 회원가입, 아이디 비밀번호 찾기 프론트엔드 구현</li>
-      <li>사용자 입력 정보에 대한 실시간 필드 유효성 검사 기능 구현</li>
+      <li>Socket.io 기초 세팅 및 </li>
+      <li>방 생성 및 삭제를 감지하고 실시간 방 목록 업데이트 기능 구현</li>
+      <li></li>
       <li>비밀번호 강도 체크 기능 구현 ("중" 이상 가입 가능)</li>
-      <li>이메일, 핸드폰인증 기존코드 개선</li>
-      <li>OAuth2.0 인증방식을 사용하여 카카오, 네이버 로그인 기능 구현 및 백엔드와 연동</li>
-      <li>Axios Interceptor를 활용하여 사용자 request시 JWT 토큰 처리를 통한 보안 강화</li>
-      <li>Access token 만료시 Refresh token 재발급 및 Local storage에 저장</li>
     </ul>
   </details>
-
-  <details>
-    <summary><b>프론트엔드 기능 추가</b></summary>
-    <ul>
-      <li>Redux를 설정 및 Store를 활용하여 전역 상태 관리</li>
-      <li>React-cropper API를 활용하여 회원 사진 크기를 일정하게 만들기 위한 Resize & Crop 기능 구현</li>
-    </ul>
-  </details>
-
-  <details>
-    <summary><b>실시간 채팅 기능 추가</b></summary>
-    <ul>
-      <li>WebSocket과 StompJS를 사용하여 실시간 채팅 기능 백엔드 및 프론트엔드 구현</li>
-    </ul>
-  </details> 
-
-  <details>
-    <summary><b>각종 프론트엔드 API 구현</b></summary>
-    <ul>
-      <li>에러 핸들러 API를 만들고 Toast UI를 활용해 사용자에게 피드백 제공</li>
-      <li>회원/비회원, 등급별 페이지 엑세스 권한 API를 만들어 페이지별 적용</li>
-    </ul>
-  </details> 
   <br>
 
 ## 문제점 및 개선점
