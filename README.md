@@ -3,7 +3,8 @@
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=500&pause=10000&color=58A6FF&center=true&random=false&width=435&lines=Ink Link" alt="Typing SVG" />
   </a>
-  <p>[ 2023.11.20 - 2024.01.30(중단) ]</p>
+  <p>[ 2023.11.20 - 2024.01.30 ]</p>
+  <p>프로젝트 중단</p>
   <p>인원 : 2명</p>
   
   [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/JK0201/Devster-final)
