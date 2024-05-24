@@ -42,11 +42,18 @@
       <li>로비 채팅 기능 구현</li>
     </ul>
   </details>
+
+  <details>
+    <summary><b>기타</b></summary>
+    <ul>
+      <li>TypeScript를 적용하여 예상치 못한 타입 에러를 방지하고 코드의 안정성을 높임</li>
+    </ul>
+  </details>
   <br>
 
 ## 문제점 및 개선점
   <details>
-    <summary><b>문제점 (Version 1.0)</b></summary>
+    <summary><b>느낀점</b></summary>
     <ul>
       <li>컨트롤러에 모든 기능이 집중되어 있어 코드 유지보수 및 재사용성이 떨어짐</li>
       <li>유효성 검사를 클라이언트에서만 수행하여 보안 취약점이 존재함</li>
@@ -56,17 +63,6 @@
       <li>전역 변수를 체계적으로 관리하지 못해 상태 관리의 일관성이 떨어짐</li>
     </ul>
   </details>
-
-  <details>
-    <summary><b>개선점 (Version 2.0)</b></summary>
-    <ul>
-      <li>서비스 레이어로 기능을 분리하고 컨트롤러 본연의 역할을 할 수 있도록 분리하여 코드의 유지보수성을 높이고 재사용성을 향상 시킴</li>
-      <li>서버 측 유효성 검사를 추가하여 보안 강화</li>
-      <li>소셜 로그인 처리를 서버 측으로 이전하여 보안성을 강화하고, 리다이렉트를 통해 사용자 경험을 향상</li>
-      <li>CSR(Client-Side Rendering) 방식인 React를 사용하여 SPA(Single Page Application) 방식을 통해 페이지 전환을 매끄럽게 하여 사용자 경험을 향상 </li>
-      <li>Redux를 도입하여 전역 변수를 효율적으로 관리하고 상태 관리의 일관성을 높임</li>
-    </ul>
-  </details>  
 <br>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:16213E,10:0F3460,30:533483,75:5B2A86,100:E94560&height=40&section=footer&text=&fontSize=0" width="100%"/>
