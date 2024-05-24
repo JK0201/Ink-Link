@@ -36,10 +36,10 @@
   <details>
     <summary><b>Socket.io</b></summary>
     <ul>
-      <li>Socket.io 기초 세팅 및 </li>
-      <li>방 생성 및 삭제를 감지하고 실시간 방 목록 업데이트 기능 구현</li>
-      <li></li>
-      <li>비밀번호 강도 체크 기능 구현 ("중" 이상 가입 가능)</li>
+      <li>Socket.io 세팅 및 실시간 통신 구현</li>
+      <li>방 생성/삭제 감지 및 방 목록 업데이트 기능 구현</li>
+      <li>유저 접속/로그아웃을 감지 및 유저 목록 업데이트 기능 구현</li>
+      <li>로비 채팅 기능 구현</li>
     </ul>
   </details>
   <br>
